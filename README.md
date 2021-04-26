@@ -23,9 +23,7 @@ ETHUSDT当前价格为：2436.48
 2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.625 
 交易平台:api.kraken.com 
 ETHUSDT当前价格为：2434.1900  
-2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 
-===========================  
+2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : ===========================  
 2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  :
 当前时间：2021-04-26T16:16:35.625货币ETHUSDT在交易所hbtc.co交易价格较高，价格为：2436.48 
-2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  :
-===========================  
+2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  :===========================  
