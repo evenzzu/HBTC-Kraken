@@ -11,21 +11,18 @@
 
 输出的日志：
 
-2021-04-26 16:16:30.089  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:30.089
-
-交易平台:api.hbtc.co
-
-BTCUSDT当前价格为：52603.31
-
-2021-04-26 16:16:30.366  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:30.366 
-交易平台:api.kraken.com 
-BTCUSDT当前价格为：52659.300  
-2021-04-26 16:16:35.410  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.410 
+2021-04-26 16:16:30.089  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:30.089 
 交易平台:api.hbtc.co  
-ETHUSDT当前价格为：2436.48    
-2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.625
-交易平台:api.kraken.com
-ETHUSDT当前价格为：2434.1900
-2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : ===========================
-2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.625货币ETHUSDT在交易所hbtc.co交易价格较高，价格为：2436.48
-2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : ===========================
+BTCUSDT当前价格为：52603.31 
+2021-04-26 16:16:30.366  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:30.366   
+交易平台:api.kraken.com   
+BTCUSDT当前价格为：52659.300    
+2021-04-26 16:16:35.410  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.410   
+交易平台:api.hbtc.co    
+ETHUSDT当前价格为：2436.48      
+2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.625 
+交易平台:api.kraken.com 
+ETHUSDT当前价格为：2434.1900  
+2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : ===========================  
+2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : 当前时间：2021-04-26T16:16:35.625货币ETHUSDT在交易所hbtc.co交易价格较高，价格为：2436.48 
+2021-04-26 16:16:35.625  INFO 11440 --- [   scheduling-1] c.example.hbtc.demo.service.BiteService  : ===========================  
