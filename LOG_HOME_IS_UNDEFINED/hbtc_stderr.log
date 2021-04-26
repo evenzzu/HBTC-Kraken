@@ -1,0 +1,506 @@
+2021-04-26 14:27:05 [ERROR] [main ] c.e.h.d.s.BiteService - 当前时间：2021-04-26T14:27:05.116
+交易平台:api.hbtc.co
+BTCUSDT当前价格为：52643.89
+2021-04-26 14:27:33 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-04-26 14:27:56 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-04-26 14:28:15 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-04-26 14:29:41 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+2021-04-26 14:32:44 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-04-26 14:42:43 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+2021-04-26 14:43:03 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 9, column 20:
+      config: classpath: logback.xml
+                       ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:869)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:558)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:235)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:257)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:248)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:162)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:95)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:134)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:512)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:48)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:34)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:103)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:118)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:82)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:121)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:230)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:97)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:100)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:86)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+2021-04-26 14:43:12 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-04-26 14:43:37 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-04-26 14:44:54 [ERROR] [main ] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.example.hbtc.demo.DemoApplication.main(DemoApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackHomeGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:81 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackHomeGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackIpGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:73 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackIpGetProperty
+ERROR in ch.qos.logback.core.joran.action.DefinePropertyAction - Could not create an PropertyDefiner of type [com.thunisoft.logback.LogbackPortGetProperty]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:77 - ActionException in Action for tag [define] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type com.thunisoft.logback.LogbackPortGetProperty
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout] java.lang.ClassNotFoundException: org.apache.skywalking.apm.toolkit.log.logback.v1.x.TraceIdPatternLogbackLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
